@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/save">
+    </item>
+    <item
+        android:id="@+id/menu_set"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/set">
+    </item>
+    <item
+        android:id="@+id/menu_clear"
+        android:icon="@drawable/clear_screen"
+        android:title="@string/clear">
+    </item>
+    <item
+        android:id="@+id/menu_shapes"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="@string/shapes">
+    </item>
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/about">
+    </item>
+    <item
+        android:id="@+id/menu_quit"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="@string/quit">
+    </item>
+
+</menu>

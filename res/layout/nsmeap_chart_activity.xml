@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <com.nqsky.meap.widget.chart.NSMeapBarChartBuilder
+        android:id="@+id/nsmeap_chart_barchar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff" >
+    </com.nqsky.meap.widget.chart.NSMeapBarChartBuilder>
+
+    <com.nqsky.meap.widget.chart.NSMeapPieChartBuilder
+        android:id="@+id/nsmeap_chart_piechar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff" >
+    </com.nqsky.meap.widget.chart.NSMeapPieChartBuilder>
+
+    <com.nqsky.meap.widget.chart.NSMeapLineChartBuilder
+        android:id="@+id/nsmeap_chart_linechar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff" >
+    </com.nqsky.meap.widget.chart.NSMeapLineChartBuilder>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 服务器返回报文件异常信息 -->
+<resources>
+
+    <string name="ERR_NO_RESPOND">服务无法响应</string>
+    <string name="ERR_RESPONSE_TIMEOUT">服务请求超时</string>
+    <string name="ERR_FORMAT_INCORRECT">请求内容格式不正确</string>
+    <string name="ERR_UNKOWN_METHOD">请求方法不存在</string>
+    <string name="ERR_SERVICE_NOT_FOUND">请求服务不存在</string>
+    <string name="ERR_SERVICE_DEPRECATED">服务已经过期</string>
+    <string name="ERR_SSL_REQUIRED">服务必须通过SSL方式请求</string>
+    <string name="ERR_CIPHER_REQUIRED">服务必须通过指定的加密算法</string>
+    <string name="ERR_APPTOKEN_UNKNOWN">不能识别的客户端</string>
+    <string name="ERR_APPTOKEN_VERIFY">客户端未被激活(无效的请求客户端)</string>
+    <string name="ERR_INVALID_SIGN"> 无效的报文签名</string>
+    <string name="ERR_UNKOWN_SIGNER">不支持的签名算法</string>
+    <string name="ERR_SERVICE_INTERNAL_EXCEPTION">方法内部异常</string>
+    <string name="ERR_INVALID_PARAMETER">错误的请求参数</string>
+    <string name="ERR_LOGGED_REQUIRED">服务要求登录</string>
+    <string name="ERR_REQUEST_ABORTED">请求被拒绝</string>
+    <string name="ERR_DECRYPTION_FAILED">解密失败</string>
+    <string name="ERR_ENCRYPTION_FAILED">加密失败</string>
+    <string name="ERR_REQUEST_CONTENT">请求内容不合法</string>
+    <string name="ERR_UNKONW_CIPHER_ALGORITHM">不被支持的解密算法</string>
+    <string name="ERR_DECOMPRESSION_FAILED">解压缩过程失败</string>
+    <string name="ERR_UNKONW_COMPRESSION_ALGORITHM">不被支持的压缩算法</string>
+    <string name="ERR_COMPRESSION_FAILED">压缩过程失败</string>
+    <string name="ERR_ILLEGAL_CLIENT">非法的客户端</string>
+    <string name="ERR_ILLEGAL_RESPONSE">响应报文不合法</string>
+    <string name="ERR_RESPONSE_SIGN"> 响应报文签名异常</string>
+    <string name="ERR_REQUEST">请求异常</string>
+    <string name="ERR_SERVICE_DRIVEN">服务驱动异常</string>
+    <string name="ERR_UNKONW_HANDLER">不支持的内部处理方式</string>
+    <string name="ERR_INTERNAL_NETWORK">内部网络异常</string>
+    <string name="ERR_INTERNAL_SERIALIZATION"> 内部序列化异常</string>
+    <string name="ERR_INTERNAL_RESPONSE">内部响应异常</string>
+    <string name="ERR_REQUEST_OVERRUN">请求大小超限</string>
+    <string name="ERR_APPTOKEN_REQUEST_OVERRUN">同一个AppToken请求超限</string>
+    <string name="ERR_SESSION_REQUEST_OVERRUN">请求会话过程超限</string>
+    <string name="ERR_SERVICE_INVOKE_OVERRUN">服务请求次数超限</string>
+    <string name="ERR_SERVICE_INVOKE_QTS_OVERRUN">服务调用频率超限</string>
+    <string name="ERR_FILE_NOT_EXISTS">文件不存在</string>
+    <string name="ERR_FILE_STATUS_EXCPT">文件状态异常</string>
+    <string name="ERR_FILE_VERIFY_FAIL">文件验证失败</string>
+    <string name="ERR_UPLOAD_HANDLER">文件上传处理类异常</string>
+    <string name="ERR_REG_DEVICE_DUPLICATE">设备已经注册</string>
+    <string name="ERR_REG_VERIFY_FAIL">注册验证失败</string>
+
+</resources>

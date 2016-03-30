@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 画板菜单 -->
+    <string name="save">保存</string>
+    <string name="set">设置</string>
+    <string name="clear">清屏</string>
+    <string name="shapes">图形</string>
+    <string name="about">关于</string>
+    <string name="quit">退出</string>
+    <!-- 关于 -->
+    <string name="about_title">关于画图板</string>
+    <string name="about_content">      这是一个简单的涂鸦板，可以画一些简单的线条和图形，可以重画并保存。</string>
+    <!-- 设置oreference的key -->
+    <string name="pen_width_key">pen_width_key</string>
+    <string name="pen_color_key">pen_color_key</string>
+    <!-- 两个单选的preference的key -->
+    <string name="pen_style_key">pen_style_key</string>
+    <string name="full_screen">full_screen</string>
+
+</resources>
